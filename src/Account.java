@@ -34,7 +34,6 @@ public class Account extends Thread{
         System.out.println("Total cash: " + total + "(+" + amount + "€)");
         this.total = this.total + amount;
         System.out.println("Updated cash: " + total);
-        System.out.println("OLAAAA");
     }
 
     public int getTotal() {
